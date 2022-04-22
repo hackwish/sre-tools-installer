@@ -9,12 +9,32 @@ collections:
   - name: kubernetes.core
 
 roles:
+# Common Tools
+  - name: common
+    src: https://github.com/hackwish/ansible-common.git
+
+  - name: edge-browser
+    src: https://github.com/hackwish/ansible-edge-browser.git
+
+  - name: brew
+    src: https://github.com/hackwish/ansible-brew.git
+
   - name: ohmyzsh
     src: https://github.com/hackwish/ansible-ohmyzsh.git
 
   - name: cloudalchemy.node-exporter
     src: git+https://github.com/cloudalchemy/ansible-node-exporter.git
 
+  - name: plank
+    src: https://github.com/hackwish/ansible-plank.git
+
+  - name: droidcam
+    src: https://github.com/hackwish/ansible-droidcam.git
+    
+  - name: anydesk
+    src: https://github.com/hackwish/ansible-anydesk.git
+ 
+# DevOps - SRE Tools
   - name: aws-vpn-client
     src: https://github.com/hackwish/ansible-aws-vpn-client.git
 
@@ -23,3 +43,57 @@ roles:
 
   - name: safenet
     src: https://github.com/hackwish/ansible-safenet.git
+
+  - name: azure-data-studio
+    src: https://github.com/hackwish/ansible-azure-data-studio.git
+
+  - name: cloud-sql-proxy
+    src: https://github.com/hackwish/ansible-cloud-sql-proxy.git
+
+  - name: tfswitch
+    src: https://github.com/hackwish/ansible-tfswitch.git
+
+  - name: terragrunt
+    src: https://github.com/hackwish/ansible-terragrunt.git
+
+  - name: terraform-docs
+    src: https://github.com/hackwish/ansible-terraform-docs.git
+
+  - name: ibmcloud
+    src: https://github.com/hackwish/ansible-ibmcloud.git
+
+  - name: azurecli
+    src: https://github.com/hackwish/ansible-role-azurecli.git
+
+  - name: kops
+    src: https://github.com/hackwish/ansible-kops.git
+
+  - name: k3d
+    src: https://github.com/hackwish/ansible-k3d.git
+
+  - name: tfenv
+    src: https://github.com/hackwish/ansible-tfenv.git
+
+  - name: terraformer
+    src: https://github.com/hackwish/ansible-terraformer.git
+
+  - name: istioctlenv
+    src: https://github.com/hackwish/ansible-istioctlenv.git
+
+  - name: cf-terraforming
+    src: https://github.com/hackwish/ansible-cf-terraforming.git
+
+  - name: velero-io
+    src: https://github.com/hackwish/ansible-velero-io.git
+
+  - name: stern
+    src: https://github.com/hackwish/ansible-stern.git
+
+  - name: sops
+    src: andrewrothstein.sops
+    
+  - name: gh
+    src: fesaille.gh
+
+  - name: vagrant
+    src: andrewrothstein.vagrant

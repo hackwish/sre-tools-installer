@@ -1,0 +1,34 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    # Common
+    - anydesk
+    - brew
+    - cloudalchemy.node-exporter
+    - droidcam
+    - edge-browser
+    - ohmyzsh
+    - plank
+    # DevOps-SRE
+    - aws-vpn-client
+    - azure-data-studio
+    - azurecli
+    - cf-terraforming
+    - cisco-anyconnect
+    - cloud-sql-proxy
+    - gh
+    - ibmcloud
+    - istioctlenv
+    - k3d
+    - kops
+    - safenet
+    - sops
+    - stern
+    - terraform-docs
+    - terraformer
+    - terragrunt
+    - tfenv
+    - tfswitch
+    - vagrant
+    - velero-io
