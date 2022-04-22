@@ -2,7 +2,7 @@
 ##
 
 echo ""
-echo "DXC DevOps-SRE Tools installer"
+echo "DevOps-SRE Tools installer"
 echo ""
 echo "Before to start, let's detect your OS..."
 echo ""
