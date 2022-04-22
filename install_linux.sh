@@ -97,4 +97,4 @@ ansible-galaxy install --force -r requirements.yml
 echo "Comienza Deployment con Ansible"
 ansible-playbook -vvv -i ansible/inventory ansible/sre.yml
 
-echo "Por ahora estamos listos!"
+echo "¡Por ahora estamos listos!"

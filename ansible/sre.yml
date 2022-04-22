@@ -4,5 +4,6 @@
   roles:
     - ohmyzsh
     - cloudalchemy.node-exporter
-    - ansible-sre-common
     - aws-vpn-client
+    - cisco-anyconnect
+    - safenet

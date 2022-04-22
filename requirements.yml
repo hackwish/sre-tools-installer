@@ -17,3 +17,9 @@ roles:
 
   - name: aws-vpn-client
     src: https://github.com/hackwish/ansible-aws-vpn-client.git
+
+  - name: cisco-anyconnect
+    src: https://github.com/hackwish/ansible-cisco-anyconnect.git
+
+  - name: safenet
+    src: https://github.com/hackwish/ansible-safenet.git
