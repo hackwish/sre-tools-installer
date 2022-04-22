@@ -16,7 +16,7 @@ export ARCHITECTURE=`uname -a | awk '{print $13}'`
 
 echo ${OS_LIKE}
 
-if [ ${OS_LIKE} == 'ubuntu' ]; then
+if [ ${OS_LIKE} == 'ubuntu' ]  || [ ${OS_LIKE} == 'debian' ]; then
     # install that if we have to.
     which lsb_release && apt-get --yes install lsb-release
     
