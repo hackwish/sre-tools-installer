@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ohmyzsh
+    - cloudalchemy.node-exporter
+    - ansible-sre-common
+    - aws-vpn-client

@@ -95,6 +95,6 @@ echo "Descargando requirements"
 ansible-galaxy install --force -r requirements.yml
 
 echo "Comienza Deployment con Ansible"
-ansible-playbook -vvv -i ansible/inventory ansible/dxc.yml
+ansible-playbook -vvv -i ansible/inventory ansible/sre.yml
 
 echo "Por ahora estamos listos!"

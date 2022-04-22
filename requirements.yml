@@ -7,3 +7,13 @@ collections:
   - name: community.kubernetes
   - name: community.sops
   - name: kubernetes.core
+
+roles:
+  - name: ohmyzsh
+    src: https://github.com/hackwish/ansible-ohmyzsh.git
+
+  - name: cloudalchemy.node-exporter
+    src: git+https://github.com/cloudalchemy/ansible-node-exporter.git
+
+  - name: aws-vpn-client
+    src: https://github.com/hackwish/ansible-aws-vpn-client.git
