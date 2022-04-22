@@ -1,0 +1,9 @@
+---
+collections:
+  - name: ansible.posix
+  - name: cloud.common
+  - name: community.docker
+  - name: community.general
+  - name: community.kubernetes
+  - name: community.sops
+  - name: kubernetes.core
